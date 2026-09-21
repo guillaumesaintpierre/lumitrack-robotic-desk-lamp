@@ -19,8 +19,8 @@ from software.simulation.light_geometry import (
 DT = 0.04
 
 GEOMETRY = LampGeometry(
-    head_radius_m=0.20,
-    head_height_m=0.40,
+    head_radius_m=0.080,
+    head_height_m=0.257,
 )
 
 kinematic_model = LumiTrackDigitalTwin(

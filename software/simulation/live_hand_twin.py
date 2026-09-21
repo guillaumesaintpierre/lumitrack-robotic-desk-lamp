@@ -42,8 +42,8 @@ CALIBRATION_PATH = "config/desk_calibration.json"
 # These will later be replaced by geometry extracted from
 # the FORSÅ reference model.
 GEOMETRY = LampGeometry(
-    head_radius_m=0.20,
-    head_height_m=0.40,
+    head_radius_m=0.080,
+    head_height_m=0.257,
 )
 
 

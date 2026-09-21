@@ -34,3 +34,31 @@ The imported model is used to:
 
 The current project implements and validates the robotic system
 in simulation. No physical robotic prototype has been manufactured.
+
+## Articulated joints
+
+The imported FORSÅ reference model was articulated using two virtual joints.
+
+### Base yaw
+
+- Blender pivot: `LumiTrack_YawPivot`
+- Reference mesh: `Cylinder004`
+- Rotation axis: Blender Z
+- Robotic coordinate: base yaw
+
+### Head pitch
+
+- Blender pivot: `LumiTrack_HeadPitchPivot`
+- Reference mesh: `Object005`
+- Rotation axis: Blender X
+- Robotic coordinate: lamp-head pitch
+
+## Reference geometry
+
+After scaling the third-party FORSÅ model by 0.81:
+
+- nominal head horizontal radius: approximately 0.080 m
+- nominal head pivot height above desk: approximately 0.257 m
+
+These values correspond to the fixed arm configuration represented by the
+reference FBX model and are not manufacturing dimensions.

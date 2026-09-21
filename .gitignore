@@ -22,3 +22,4 @@ config/desk_calibration.json
 mechanical/reference/*.FBX
 mechanical/reference/*.fbx
 mechanical/reference/forsa_model_report.json
+mechanical/blender/*.blend

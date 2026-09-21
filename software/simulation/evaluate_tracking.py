@@ -16,8 +16,8 @@ DT = 0.04
 NUM_POINTS = 300
 
 GEOMETRY = LampGeometry(
-    head_radius_m=0.20,
-    head_height_m=0.40,
+    head_radius_m=0.080,
+    head_height_m=0.257,
 )
 
 

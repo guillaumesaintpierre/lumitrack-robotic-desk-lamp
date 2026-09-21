@@ -83,8 +83,8 @@ class LumiTrackDigitalTwin:
 if __name__ == "__main__":
 
     geometry = LampGeometry(
-        head_radius_m=0.20,
-        head_height_m=0.40,
+        head_radius_m=0.080,
+        head_height_m=0.257,
     )
 
     robot = LumiTrackDigitalTwin(
