@@ -19,3 +19,6 @@ build/
 *.logmodels/*.task
 models/*.taskconfig/desk_calibration.json
 config/desk_calibration.json
+mechanical/reference/*.FBX
+mechanical/reference/*.fbx
+mechanical/reference/forsa_model_report.json
