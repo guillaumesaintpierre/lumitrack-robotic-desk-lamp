@@ -17,4 +17,5 @@ build/
 # Temporary files
 *.tmp
 *.logmodels/*.task
-models/*.task
+models/*.taskconfig/desk_calibration.json
+config/desk_calibration.json
