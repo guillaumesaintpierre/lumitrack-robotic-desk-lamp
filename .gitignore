@@ -16,4 +16,5 @@ build/
 
 # Temporary files
 *.tmp
-*.log
+*.logmodels/*.task
+models/*.task
