@@ -37,7 +37,6 @@ def test_target_changes_base_angle():
 
     assert robot.base_yaw_deg > 0
 
-
 def test_base_limit():
 
     robot = LumiTrackDigitalTwin(
@@ -47,10 +46,12 @@ def test_base_limit():
         )
     )
 
+    # This target requires a yaw angle
+    # greater than the allowed +100 degrees.
     robot.command_target(
-        x_m=0.20,
-        y_m=1.00,
+        x_m=-1.00,
+        y_m=0.20,
     )
 
-    assert robot.base_yaw_deg <= 50
-    
+    assert robot.base_yaw_deg <= 100.0
+    assert robot.base_yaw_deg == 100.0

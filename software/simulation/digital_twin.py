@@ -9,13 +9,13 @@ from software.control.kinematics import (
 )
 
 
-@dataclass(frozen=True)
+@dataclass
 class JointLimits:
-    base_min_deg: float = -50.0
-    base_max_deg: float = 50.0
+    base_min_deg: float = -100.0
+    base_max_deg: float = 100.0
 
     head_min_deg: float = 0.0
-    head_max_deg: float = 80.0
+    head_max_deg: float = 90.0
 
 
 def clamp(value: float, minimum: float, maximum: float) -> float:
@@ -114,4 +114,3 @@ if __name__ == "__main__":
             f"Head pitch: "
             f"{angles.head_pitch_down_deg:.2f} deg"
         )
-        
