@@ -39,3 +39,22 @@ Critical dimensions will be verified on the physical lamp before manufacturing c
 - Head pivot geometry
 - Servo mounting clearances
 - Linkage attachment distances
+
+
+## FBX reference model
+
+The available FORSÅ reference model is a binary FBX 7.4 file.
+
+File metadata indicates millimetre-scale model units.
+
+The model contains:
+
+- 64 geometry objects
+- 68 model objects
+
+Initial inspection found geometry consistent with key manufacturer dimensions, including an approximately 120 mm lamp-shade dimension.
+
+The FBX model is therefore used for digital-twin geometry and visualization.
+
+It is not treated as manufacturing-grade IKEA CAD data.
+
